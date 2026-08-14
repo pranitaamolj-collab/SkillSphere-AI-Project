@@ -1,4 +1,4 @@
-from database.database import (
+from database import (
     add_user,
     check_user
 )
