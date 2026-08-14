@@ -1,6 +1,6 @@
 import streamlit as st
 
-from database.database import create_table
+from database import create_table
 from utils.auth import register_user, login_user
 
 from utils.resume_analyzer import extract_text, find_skills
