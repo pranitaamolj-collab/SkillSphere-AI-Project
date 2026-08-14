@@ -1,11 +1,11 @@
 import streamlit as st
 
 from database import create_table
-from utils.auth import register_user, login_user
+from auth import register_user, login_user
 
-from utils.resume_analyzer import extract_text, find_skills
-from utils.resume_score import calculate_resume_score
-from utils.career import recommend_career
+from resume_analyzer import extract_text, find_skills
+from resume_score import calculate_resume_score
+from career import recommend_career
 
 
 # =========================================================
